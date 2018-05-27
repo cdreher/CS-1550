@@ -100,18 +100,6 @@ draw some basic shapes, and read keypresses.
 1. Once your library code is completed, you will need to make a small driver program that illustrates all of the functionality of your library.
 1. You should create a Makefile (compatible with GNU Make) that will compile your library code and driver.
 
-## Submission Guidelines:
-* **DO NOT** add any QEMU files to your git repository.
-* **DO NOT SUBMIT** any IDE package files.
-* You must name your library file "library.c" and your driver file "driver.c".
-* Your repository must include a valid Makefile for your project.
-* You must be able to compile your library and driver by running "make".
-* You must be able to run your driver program by running "./driver".
-* You must fill out info_sheet.txt.
-* Be sure to remember to push the latest copy of your code back to your GitHub repository before the the assignment is due.  At the deadline, the repositories will automatically be copied for grading.  Whatever is present in your GitHub repository at that time will be considered your submission for this assignment.
-
-## Additional Notes/Hints:
-* This project will require extensive reading of man pages.  The system calls that you will need to make are listed in the table at the top of this document. To understand how they work, you will need to carefully study their man pages.  Be sure to use the `man 2 ...` page (for system calls) and not `man 3 ...` (for library calls).
 
 ## Grading Rubric:
 * init_graphics:  15
