@@ -1,0 +1,56 @@
+========================================
+CS/COE 1550 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name: Collin Dreher
+
+Lecture section: TH 2:30-3:45
+
+Recitation day and time: TUESDAY @ 9:00
+
+Assignment #:  3
+
+Program due date:  4/22/18 @ 11:59 PM
+
+Handed in date:  4/21/18 @ 5:00 PM 
+
+Source code file name(s):
+
+cs1550.c
+Makefile
+
+
+
+
+
+Other file name(s) (if relevant):
+
+
+info_sheet.txt
+
+
+
+
+Does your program run without error?: yes
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+
+
+
+
+
+
+Additional comments to the grader:
+
+
+
+
+
+
+
