@@ -6,8 +6,4 @@
 1.  Commit all changes to your repository.
 1.  Push your repository back to GitHub.
 
-## Submission Guidelines:
-*  Be sure to remember to push the latest copy of your code back to your GitHub repository before the the assignment is due.  At the specified deadline, the repositories will automatically be copied for grading.  Whatever is present in your GitHub repository at that time will be considered your submission for this assignment.
 
-## Additional Notes/Hints:
-*  Note that you will not be graded on whether or not the contents of your P0.txt file actually makes the TA smile.  Just try your best.
