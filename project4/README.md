@@ -254,23 +254,6 @@ The syscalls need to return success or failure.  Success is indicated by 0 and a
 
 * Remember that you may want to delete your `.disk` file if it becomes corrupted.  You can use the commands `od -x` to see the contents in hex of a file, or the command `strings` to grab human readable text out of a binary file.
 
-## Submission Guidelines:
-* **DO NOT** add your `.disk` file to your repository
-* **DO NOT SUBMIT** any IDE package files.
-* Your repository must include:
-	* Your `cs1550.c` source file
-	* A valid Makefile for your filesystem program
-* You must be able to compile your filesystem program program by running `make`.
-* You must fill out info_sheet.txt.
-* Be sure to remember to push the latest copy of your code back to your GitHub repository before the the assignment is due.  At the deadline, the repositories will automatically be copied for grading.  Whatever is present in your GitHub repository at that time will be considered your submission for this assignment.
-
-## Additional Notes/Hints:
-*  The root directory is equivalent to your mount point.  The FUSE application does not see the directory tree outside of this position.  All paths are translated automatically for you.
-* `sscanf(path, "/%[^/]/%[^.].%s", directory, filename, extension);` or you can use `strtok()`
-* Your application is part of userspace, and as such you are free to use whatever C Standard Libraries you wish, including the file handling ones.
-* Remember to always close your disk file after you open it in a function.  Since the program doesn't terminate until you unmount the file system, if you've opened a file for writing and not closed it, no other function can open that file simultaneously.
-* Remember to open your files for binary access.
-* Without the -d option, FUSE will be launched without knowledge of the directory you started it in, and thus won't be able to find your .disk file, if it is referenced via a relative path. This is okay, we will grade with the -d option enabled.
 
 ## Grading Rubric:
 * Free block bookkeeping done appropriately: 15
