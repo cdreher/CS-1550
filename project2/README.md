@@ -225,25 +225,6 @@ buffer (i.e., there is only one buffer total).
 	* Running prodcons
 		* We cannot run our prodcons program on thoth.cs.pitt.edu because its kernel does not have the new syscalls in it. However, we can test the program under QEMU once we have installed the modified kernel. We first need to download prodcons using scp as we did for the kernel. However, we can just run it from our home directory without any installation necessary.
 
-## Submission Guidelines:
-* **DO NOT** add any QEMU files to your git repository.
-* **DO NOT** add any Linux kernel source or compiled kernels to your git repository.
-* **DO NOT SUBMIT** any IDE package files.
-* Your repository must inclued:
-	* Your `prodcons.c` source file
-	* A valid Makefile for prodcons
-	* The `sys.c` that you modified to add your up/down system calls
-	* The `syscall_table.S` that you modified to add your up/down system calls
-	* The `unistd.h` that you modified to add your up/down system calls
-* You must be able to compile your prodcons program by running `make`.
-* You must be able to run your prodcons program by running `./prodcons`.
-* You must fill out info_sheet.txt.
-* Be sure to remember to push the latest copy of your code back to your GitHub repository before the the assignment is due.  At the deadline, the repositories will automatically be copied for grading.  Whatever is present in your GitHub repository at that time will be considered your submission for this assignment.
-
-## Additional Notes/Hints:
-* `printk()` is the version of `printf()` you can use for debugging messages from the kernel.
-* In general, you can use some library standard C functions, but not all. If they do an OS call, they may not work.
-* Try different buffer sizes to make sure your program doesn't deadlock.
 
 ## Grading Rubric:
 * up/down syscalls are callable by a user program: 10
