@@ -69,20 +69,6 @@ In lecture, we have discussed several page replacement algorithms.  For this pro
 	* For WSClock, you have to try to determine a good choice of tau. Plot your results. 
 	* For each of your four algorithms (with Aging using the refresh you determined and WSClock with the tau you determined), describe in a document the resulting page fault statistics for 8, 16, 32, and 64 frames. Use this information to determine which algorithm you think might be most appropriate for use in an actual operating system. Use OPT as the baseline for your comparisons.
 
-## Submission Guidelines:
-* **DO NOT** add any of the trace files to your git repository.
-* **DO NOT SUBMIT** any IDE package files.
-* Your repository must include:
-	* Your `vmsim.c` source file
-	* A valid Makefile for vmsim
-	* Your `writeup.pdf` file 
-* You must be able to compile your prodcons program by running `make`.
-* You must be able to run your simulation program as specified above.
-* You must fill out info_sheet.txt.
-* Be sure to remember to push the latest copy of your code back to your GitHub repository before the the assignment is due.  At the deadline, the repositories will automatically be copied for grading.  Whatever is present in your GitHub repository at that time will be considered your submission for this assignment.
-
-## Additional Notes/Hints:
-* Implementing OPT in a naïve fashion will lead to unacceptable performance. It should not take more than 5 minutes to run your program.
 
 ## Grading Rubric:
 * Trace file parsing: 5
